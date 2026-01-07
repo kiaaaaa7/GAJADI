@@ -98,19 +98,20 @@ $pageTitle = "Beranda - " . SITE_NAME;
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Rasa Premium, Kenyamanan Rumah</h1>
-                <p class="hero-subtitle">Nikmati kopi spesial dan cemilan lezat di House Cafe, tempat dimana setiap tegukan membawa kebahagiaan.</p>
-                <div class="hero-buttons">
-                    <a href="<?= BASE_URL ?>/shop.php" class="btn btn-primary btn-large">Lihat Menu</a>
-                    <a href="<?= BASE_URL ?="/shop.php?category=signature" ?>" class="btn btn-outline btn-large">Signature Drinks</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="<?= BASE_URL ?>/assets/img/hero-coffee.png" alt="Coffee" class="floating">
+         <div class="hero-content">
+            <h1 class="hero-title">Rasa Premium, Kenyamanan Rumah</h1>
+            <p class="hero-subtitle">Nikmati kopi spesial dan cemilan lezat di House Cafe, tempat dimana setiap tegukan membawa kebahagiaan.</p>
+            <div class="hero-buttons">
+                <a href="<?= BASE_URL ?>/shop.php" class="btn btn-primary btn-large">Lihat Menu</a>
+                <!-- PERBAIKAN DI SINI: Hilangkan tanda = yang salah -->
+                <a href="<?= BASE_URL ?>/shop.php?category=signature" class="btn btn-outline btn-large">Signature Drinks</a>
             </div>
         </div>
-    </section>
+        <div class="hero-image">
+            <img src="<?= BASE_URL ?>/assets/img/hero-coffee.png" alt="Coffee" class="floating">
+        </div>
+    </div>
+</section>
 
     <!-- Featured Products -->
     <section class="section">

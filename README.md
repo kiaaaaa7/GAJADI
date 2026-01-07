@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # House Cafe - Sistem Pemesanan Online
 
 Website pemesanan kopi dan cemilan untuk cafe modern dengan tema soft aesthetic netral.
@@ -36,3 +37,6 @@ Website pemesanan kopi dan cemilan untuk cafe modern dengan tema soft aesthetic 
 ```bash
 git clone https://github.com/yourusername/house-cafe.git
 cd house-cafe
+=======
+# house-cafe
+>>>>>>> 6776c7386c09f5b6549f58d8fd50adb4a8e3fb40
